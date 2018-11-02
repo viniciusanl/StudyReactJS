@@ -17,7 +17,7 @@ class App extends Component {
 
                 <div className="App-Footer">
                     <img src = {logo}className = "App-Logo" alt = "logo"/>
-                    <p> Vinícius Lopes </p>
+                    <p> Vinícius Andrade Lopes </p>
                 </div>
 
             </div>
