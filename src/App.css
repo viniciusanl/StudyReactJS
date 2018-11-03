@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.App-MinhaImagem{
+#img-me{
     background-color: #ddd;
     border-radius: 20%;
     height: 200px;
@@ -36,14 +36,25 @@
 
 .App-Logo {
     animation: App-logo-spin infinite 20s linear;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+    position: relative;
 }
 
-.App-Footer{
+#footer{
     background-color: #2e1f36;
     height: 0%;
+    padding: 20px;
+}
+
+#texto{
     text-align: center;
     color: white;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(5px + 2vmin);
+    position: relative;
 }
+
+/*
+img margin: -100px -1000px 10px 0;
+foto margin: 0px -800px 0px 0;
+*/
