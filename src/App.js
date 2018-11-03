@@ -13,6 +13,11 @@ class App extends Component {
 
             <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/26166360_1143774309091022_3246020457323943336_n.jpg?_nc_cat=105&_nc_ht=scontent.fplu9-2.fna&oh=4f7df3faebdfb6bb469946a9837b59fd&oe=5C481747"
             id="img-me" align-content="right" title="Vinicius Andrade Lopes"/>
+            
+            
+            <div className="DBotao">
+                <button tipe="submit" className="Botao">Teste</button>
+            </div> 
 
             <div></div>
                         
@@ -27,6 +32,7 @@ class App extends Component {
             
         );
     }
+    
 }
 
 export default App;
