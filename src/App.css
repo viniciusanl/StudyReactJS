@@ -2,13 +2,14 @@
     text-align: center;
 }
 
-#img-me{
+.img-me{
     background-color: #ddd;
     border-radius: 20%;
     height: 200px;
     object-fit: cover;
     width: 200px;
 }
+
 
 .App-header {
     background-color: #2e1f36;
