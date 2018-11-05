@@ -10,6 +10,14 @@
     width: 200px;
 }
 
+.img-me:hover{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    background-color: #2e1f36;
+    opacity: 0.5;
+}
+
 
 .App-header {
     background-color: #2e1f36;
