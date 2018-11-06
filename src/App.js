@@ -7,6 +7,8 @@ class App extends Component {
     render() {
         return <div className="App">
             <header className="App-header">
+
+            {/* Minha Imagem */}
               <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/26166360_1143774309091022_3246020457323943336_n.jpg?_nc_cat=105&_nc_ht=scontent.fplu9-2.fna&oh=4f7df3faebdfb6bb469946a9837b59fd&oe=5C481747" className="img-me" align-content="" title="Vinicius Andrade Lopes" />
 
               <h1 className="cor-titulo">
@@ -33,7 +35,6 @@ class App extends Component {
                   contribuir para o bom desempenho da empresa.
                 </span> &nbsp; /*
               </p>
-            </header>
 
             {/* Footer dos Icones */}
             <div className="footer-icon">
@@ -49,6 +50,8 @@ class App extends Component {
                 <img src="https://image.flaticon.com/icons/svg/1051/1051309.svg" className="icons" />
               </a>
             </div>
+            
+            </header>
 
             {/* Footer dassinatura */}
             <div className="footer">

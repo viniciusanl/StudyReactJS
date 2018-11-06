@@ -34,10 +34,6 @@
     }
 }
 
-.App {
-    text-align: center;
-}
-
 .img-me{
     background-color: #ddd;
     border-radius: 20%;
@@ -54,20 +50,14 @@
     animation: fadeIn 4s ease-in-out;
 }
 
-
-.img-me:hover{
-    height: 100px;
-    width: 100px;
-    border-radius: 20%;
-    background-color: #2e1f36;
-    opacity: 0.5;
-    transition-duration: 2s;
+.App {
+    text-align: center;
 }
 
 
 .App-header {
     background-color: rgb(36, 34, 34);
-    min-height: 80vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,14 +145,16 @@ foto margin: 0px -800px 0px 0;
 */
 
 .icons{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     opacity: 1;
-    transition-duration: 2s;
+    transition-duration: 1s;
     position: relative;
 }
 
 .icons:hover{
+    height: 50px;
+    width: 50px;
     opacity: 0.5;
     transition-duration: 2s;
 }
@@ -170,11 +162,11 @@ foto margin: 0px -800px 0px 0;
 .footer-icon {
     background-color: rgb(36, 34, 34);;
     height: 0%;
-    padding: 20px;
+    padding: 30px;
 }
 
 .footer {
-    background: #2e1f36;
+    background: #DF3A01;
     border: 0 dashed #fff;
     color: #fff;
     display: -webkit-box;
