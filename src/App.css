@@ -8,17 +8,34 @@
     height: 200px;
     object-fit: cover;
     width: 200px;
+    align-items: unset;
+    margin: 20px;
+    transition-duration: 2s;
+    position: relative;
 }
 
 .img-me:hover{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 20%;
     background-color: #2e1f36;
     opacity: 0.5;
+    transition-duration: 2s;
 }
 
 
+.App-header {
+    background-color: #2e1f36;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+/*
 .App-header {
     background-color: #2e1f36;
     min-height: 100vh;
@@ -29,6 +46,7 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+*/
 
 .App-link {
     color: #61dafb;
@@ -56,36 +74,42 @@
     padding: 20px;
 }
 
-#texto{
+
+.titulo {
     text-align: center;
     color: white;
-    font-size: calc(5px + 2vmin);
-    position: relative;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(15px + 2vmin);
+    position: static;
+    text-align: center;
 }
+
+.cor-titulo{
+    color: #654d8d;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: calc(15px + 2vmin);
+    position: static;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    position: relative;
+    text-align: center;
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1;
+}
+
 
 /*
 img margin: -100px -1000px 10px 0;
 foto margin: 0px -800px 0px 0;
 */
 
-.DBotao {
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-
-.Botao {
-    display: inline-block;
-    border: 0;
-    padding: 10px 20px;
-    background: rgb(134, 114, 49);
-    color: rgb(255, 255, 255);
-    border-radius: 15px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.Botao:hover {
-    opacity: 0.6;
+.icons{
+    size: 10px;
 }
