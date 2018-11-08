@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import linkedin from "../src/icon/linkedin-sign.png"
+import facebook from "../src/icon/facebook-logo.png"
+import github from "../src/icon/github-sign.png"
 import './App.css';
 
 class App extends Component {
@@ -39,15 +42,15 @@ class App extends Component {
             {/* Footer dos Icones */}
             <div className="footer-icon">
               <a href="https://www.linkedin.com/in/vinicius-andrade-lopes/" target="_blank">
-                <img src="https://image.flaticon.com/icons/svg/1051/1051333.svg" className="icons" />
+                <img src={linkedin} className="icons" />
               </a>
               &nbsp;&nbsp; {/* &nbsp; - Espaçamento */}
               <a href="https://github.com/viniciusanl" target="_blank">
-                <img src="https://image.flaticon.com/icons/svg/3/3721.svg" className="icons" />
+                <img src={github} className="icons" />
               </a>
               &nbsp;&nbsp; {/* &nbsp; - Espaçamento */}
               <a href="https://www.facebook.com/vinicius.anl" target="_blank">
-                <img src="https://image.flaticon.com/icons/svg/1051/1051309.svg" className="icons" />
+                <img src={facebook} className="icons" />
               </a>
             </div>
             
