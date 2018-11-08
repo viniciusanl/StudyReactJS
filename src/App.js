@@ -58,7 +58,10 @@ class App extends Component {
 
             {/* Footer dassinatura */}
             <div className="footer">
+            
               <img src={logo} className="App-Logo" alt="logo" />
+              {/*<p className = "txtfooter" >
+              <span> Vinicius Andrade Lopes </span></p>*/}
             </div>
           </div>;  
     }
