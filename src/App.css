@@ -56,7 +56,7 @@
 
 
 .App-header {
-    background-color: rgb(36, 34, 34);
+    background-color: rgb(27, 21, 56);
     min-height: 95vh;
     display: flex;
     flex-direction: column;
@@ -65,9 +65,9 @@
     font-size: calc(10px + 2vmin);
     color: white;
     border: 0 dashed #fff;
-    border-top: 10px solid #DF3A01;
-    border-left: 10px solid #DF3A01;
-    border-right: 10px solid #DF3A01;
+    border-top: 10px solid rgb(50, 39, 104);
+    border-left: 10px solid rgb(50, 39, 104);
+    border-right: 10px solid rgb(50, 39, 104);
 }
 
 /*
@@ -100,13 +100,13 @@
     animation: App-logo-spin infinite 20s linear;
     height: 40px;
     width: 40px;
-    position: absolute;
+    align-content: flex-start;
 }
 
 
 .titulo {
     text-align: center;
-    color: white;
+    color: rgba(192, 192, 192, 0.644);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: calc(10px + 2vmin);
     position: static;
@@ -124,7 +124,7 @@
 
 .texto {
     text-align: center;
-    color: white;
+    color: rgba(192, 192, 192, 0.644);
     font-size: calc(7px + 2vmin);
     position: relative;
     text-align: center;
@@ -136,7 +136,7 @@
 .cor-texto {
     color: #DF3A01;
     text-align: center;
-    font-family: 'Handlee', cursive;
+    font-family: 'Comfortaa', cursive;
     font-size: calc(9px + 2vmin);
     position: static;
     text-align: center;
@@ -154,6 +154,7 @@ foto margin: 0px -800px 0px 0;
     opacity: 1;
     transition-duration: 1s;
     position: relative;
+    border-radius: 20%;
 }
 
 .icons:hover{
@@ -166,14 +167,14 @@ foto margin: 0px -800px 0px 0;
 }
 
 .footer-icon {
-    background-color: rgb(36, 34, 34);;
+    background-color: rgb(27, 21, 56);
     height: 0%;
     padding: 30px;
 }
 
 .footer {
-    background: #DF3A01;
-    border: 0 dashed #DF3A01;
+    background: rgb(50, 39, 104);
+    border: 0 dashed rgb(50, 39, 104);
     color: #fff;
     justify-content: center;
     align-items: center;
