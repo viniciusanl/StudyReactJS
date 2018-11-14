@@ -73,6 +73,7 @@ class App extends Component {
 
             </header>
 
+            
 
             {/* Footer assinatura */}
           <div className="footer" href="http://localhost:3000/">
