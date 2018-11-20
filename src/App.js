@@ -50,22 +50,22 @@ class App extends Component {
                   <img src={linkedin} className="icons" />
                 </a>
 
-                &nbsp;&nbsp; {/* &nbsp; - Espaçamento */}
+                &nbsp; {/* &nbsp; - Espaçamento */}
                 <a href="https://github.com/viniciusanl" target="_blank">
                   <img src={github} className="icons" />
                 </a>
 
-                &nbsp;&nbsp; {/* &nbsp; - Espaçamento */}
+                &nbsp; {/* &nbsp; - Espaçamento */}
                 <a href="https://www.facebook.com/vinicius.anl" target="_blank">
                   <img src={facebook} className="icons" />
                 </a>
 
-                &nbsp;&nbsp; {/* &nbsp; - Espaçamento */}
+                &nbsp; {/* &nbsp; - Espaçamento */}
                 <a href="https://www.instagram.com/vinicius.anl/?hl=pt-br" target="_blank">
                   <img src={instagram} className="icons"></img>
                 </a>
 
-                &nbsp;&nbsp; {/* &nbsp; - Espaçamento */}
+                &nbsp; {/* &nbsp; - Espaçamento */}
                 <a href="https://drive.google.com/file/d/1YIgbj6sPt8zBjxtNla-iLOI2YKizldPx/view?usp=sharing" target="_blank">
                   <img src={download} className="icons" />
                 </a>
