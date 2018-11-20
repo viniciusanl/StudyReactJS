@@ -74,7 +74,7 @@ class App extends Component {
             </header>
 
             {/* Footer assinatura */}
-          <div className="footer" href="http://localhost:3000/">
+          <div className="footer">
             <img src={logo} className="App-Logo" alt="logo" />
               {/*<p className = "txtfooter" >
               <span> Vinicius Andrade Lopes </span></p>*/}
