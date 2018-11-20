@@ -6,6 +6,7 @@ import facebook from "../src/icon/facebook-logo.png"
 import github from "../src/icon/github-sign.png"
 import download from "../src/icon/archive.png"
 import instagram from "../src/icon/instagram.png"
+import code from "../src/icon/browser.png"
 import './App.css';
 
 class App extends Component {
