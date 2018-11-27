@@ -6,6 +6,7 @@ import facebook from "../src/icon/facebook-logo.png"
 import github from "../src/icon/github-sign.png"
 import download from "../src/icon/archive.png"
 import instagram from "../src/icon/instagram.png"
+import MinhaLogo from "../src/icon/Logo Vinicius 25-11-2018.png"
 import code from "../src/icon/browser.png"
 import './App.css';
 
@@ -14,7 +15,7 @@ class App extends Component {
         return <div className="App">
             <header className="App-header">
               {/* Minha Imagem */}
-              <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/26166360_1143774309091022_3246020457323943336_n.jpg?_nc_cat=105&_nc_ht=scontent.fplu9-2.fna&oh=4f7df3faebdfb6bb469946a9837b59fd&oe=5C481747" className="img-me" align-content="" title="Vinicius Andrade Lopes"/>
+              <img src={MinhaLogo} className="img-me"/>
 
               <h1 className="cor-titulo">
                 &lt;!--
@@ -24,22 +25,16 @@ class App extends Component {
 
               <br />
 
-              <p className="cor-texto">
-                &#123;/*&nbsp;
-                <span className="texto">
-                  Tenho 24 anos, sou estudante do curso de Sistemas de
-                  Informação e fanático por tecnologia,
+              <p class="cor-texto">
+              &#123;/* 
+                <span class="texto">
+                Um amante da música e entusiasta da tecnologia
                 </span>
                 <br />
-                <span className="texto">
-                  procuro me desenvolver profissionalmente na área de TI
-                  com a finalidade de alcançar meus objetivos e
+                <span class="texto">
+                buscando impulsionar seus conhecimentos e sabedoria.
                 </span>
-                <br />
-                <span className="texto">
-                  contribuir para o bom desempenho da empresa.
-                </span>
-                &nbsp;*/&#125;
+               */&#125;
               </p>
 
               {/* Footer dos Icones */}
