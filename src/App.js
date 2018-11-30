@@ -7,7 +7,6 @@ import github from "../src/icon/github-sign.png"
 import download from "../src/icon/archive.png"
 import instagram from "../src/icon/instagram.png"
 import MinhaLogo from "../src/icon/Logo Vinicius 25-11-2018.png"
-import code from "../src/icon/browser.png"
 import './App.css';
 
 class App extends Component {
