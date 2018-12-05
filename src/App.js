@@ -60,7 +60,7 @@ class App extends Component {
                 </a>
 
                 &nbsp; {/* &nbsp; - Espaçamento */}
-                <a href="https://drive.google.com/file/d/1YIgbj6sPt8zBjxtNla-iLOI2YKizldPx/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/1tf18nnfJpon3ioUJcinvq07_AcTbtaFW/view?usp=sharing" target="_blank">
                   <img src={download} className="icons" />
                 </a>
 
