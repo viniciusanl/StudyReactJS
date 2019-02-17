@@ -38,10 +38,7 @@ class App extends Component {
                 </span>
                 */&#125;
                 <div class="icon-all">
-                  <a
-                    href="https://drive.google.com/file/d/1tf18nnfJpon3ioUJcinvq07_AcTbtaFW/view"
-                    target="_blank"
-                  >
+                  <a href="https://drive.google.com/file/d/1tf18nnfJpon3ioUJcinvq07_AcTbtaFW/view" target="_blank" >
                     <img src={cv} className="icon-cv" />
                   </a>
                 </div>
@@ -50,40 +47,30 @@ class App extends Component {
               {/* Footer dos Icones */}
               {/* target=blank abre a página em outra aba*/}
               <div className="footer-icon">
-                <a
-                  href="https://www.linkedin.com/in/vinicius-andrade-lopes/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/vinicius-andrade-lopes/" target="_blank">
                   <img src={linkedin} className="icons" />
                 </a>
+
                 &nbsp; {/* &nbsp; - Espaçamento */}
-                <a
-                  href="https://github.com/viniciusanl"
-                  target="_blank"
-                >
+                <a href="https://github.com/viniciusanl" target="_blank">
                   <img src={github} className="icons" />
                 </a>
+
                 &nbsp; {/* &nbsp; - Espaçamento */}
-                <a
-                  href="https://www.facebook.com/vinicius.anl"
-                  target="_blank"
-                >
+                <a href="https://www.facebook.com/vinicius.anl" target="_blank">
                   <img src={facebook} className="icons" />
                 </a>
+
                 &nbsp; {/* &nbsp; - Espaçamento */}
-                <a
-                  href="https://www.instagram.com/vinicius.anl/?hl=pt-br"
-                  target="_blank"
-                >
+                <a href="https://www.instagram.com/vinicius.anl/?hl=pt-br" target="_blank">
                   <img src={instagram} className="icons" />
                 </a>
+
                 &nbsp; {/* &nbsp; - Espaçamento */}
-                <a
-                  href="https://twitter.com/viniciusalo"
-                  target="_blank"
-                >
+                <a href="https://twitter.com/viniciusalo" target="_blank">
                   <img src={twitter} className="icons" />
                 </a>
+                
               </div>
             </header>
 
